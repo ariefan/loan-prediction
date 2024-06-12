@@ -1,0 +1,4 @@
+Django admin
+username: admin
+email: admin@demo.app
+password: Demo123#

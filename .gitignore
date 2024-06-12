@@ -1,0 +1,25 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore database files
+db.sqlite3
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and other generated files
+logs/
+*.log
+*.swp
+
+# Ignore static and media files
+staticfiles/
+media/
