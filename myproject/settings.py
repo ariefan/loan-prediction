@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-()a2)z-#46&z6a(!at(90#*ei!+q_q2tqxaaal3jj8!3(%rk1q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -54,6 +54,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'http://18.142.50.76:5002',
+    'https://pinjol.technosmart.id',
 ]
 
 ROOT_URLCONF = 'myproject.urls'
